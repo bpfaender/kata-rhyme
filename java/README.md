@@ -1,28 +1,36 @@
-# Java Bootstraps
+# Java JUnit5
 
-[![java-ci-badge]][ci-actions]
+A minimal setup with Java, [JUnit5](https://junit.org/junit5/), [AssertJ](https://assertj.github.io/doc/) and [Mockito](https://site.mockito.org/) to get you started.
 
-Each folder has an example project for getting started with TDD fast.
-You need to have a [java sdk](https://www.java.com/) installed and also a build tool like [gradle](http://gradle.org/) or [maven](https://maven.apache.org/), both build files are in directories.
+You can use [gradle](https://gradle.org/) or [maven](https://maven.apache.org/)
 
 [More complicated JUnit5 setups](https://github.com/junit-team/junit5-samples)
 
-## table of contents
+## Setup
 
-Java >= _1.8_
-  * [junit5](junit5) (**if unsure take this**)
-      * assertj
-      * mockito 
-  * [junit4](junit4)
-      * assertj
-      * mockito 
-  * [hamcrest](hamcrest)
-  * [spock](spock)
-  * [truth](truth)
-  * [hue4j5](hue4j5)
-  * [jqwik](jqwik)
-  * [cucumber](cucumber)
-  * [fitnesse](fitnesse)
+    git clone https://github.com/swkBerlin/kata-bootstraps
+    cd java/junit5
 
-  [java-ci-badge]:https://github.com/swkBerlin/kata-bootstraps/workflows/Java%20CI/badge.svg "CI build status"
-  [ci-actions]: https://github.com/swkBerlin/kata-bootstraps/actions
+Open as preexisting project in your favorite IDE and choose between gradle or maven nature
+
+## (optional) IDE Setup
+
+Run `./gradlew idea` to build [idea](https://www.jetbrains.com/idea) project.
+
+## Running Tests
+
+To execute the tests either run `./gradlew test`, `mvn test` or run the tests from the IDE you are using
+
+## Test Libraries Available from the Get-Go
+- [JUnit 5.8.1](https://junit.org/junit5/docs/snapshot/release-notes/#release-notes-5.8.1)
+- [AssertJ 3.21.0](https://assertj.github.io/doc/#assertj-core-release-notes)
+- [Mockito 3.12.3](https://github.com/mockito/mockito/releases)
+
+
+## Additional Libraries
+- [Vavr](https://www.vavr.io/) a functional library for Java.
+
+
+This repo was tested with [idea](https://www.jetbrains.com/idea) [2020.3.1](https://confluence.jetbrains.com/display/IDEADEV/IntelliJ+IDEA+2020.3.1+%28203.6682.168+build%29+Release+Notes), if you encounter problems please open an issue or send a pull request.
+
+Have fun!
