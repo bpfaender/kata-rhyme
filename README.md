@@ -6,6 +6,12 @@ A [Java](https://www.java.com/) version can be found in the [java/src/main/java]
 
 	javac Song.java && java Song
 
+Tests can be configured in [java/src/test/java](java/src/test/java). You can start them via gradle or maven:
+
+	gradle test
+	mvn test
+
+
 ## Objective
 
 Code to produce a popular children's nursary rhyme was produced by a web agency for the customer last year. The customer now desires to produce multiple different versions of the song using the same structure but based on different themes, for example a current popular children's movie featuring a cast of animals. The customer asks that you make the song configurable for different lists of animals. The customer cannot guarentee that there will be the same number of animals in each different version.
