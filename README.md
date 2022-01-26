@@ -6,10 +6,19 @@ A [Java](https://www.java.com/) version can be found in the [java/src/main/java]
 
 	javac Song.java && java Song
 
-Tests can be configured in [java/src/test/java](java/src/test/java). You can start them via gradle or maven:
+Gradle:
+
+	gradle run
+
+Maven:
+
+
+Tests can be configured in [java/src/test/java](java/src/test/java). You can start them via gradle
 
 	gradle test
-	
+
+or Maven:
+
 	mvn test
 
 

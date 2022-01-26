@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'eclipse' // optional (to generate Eclipse project files)
     id 'idea' // optional (to generate IntelliJ IDEA project files)
+    id 'application'
 }
 
 repositories {
@@ -22,4 +23,8 @@ test {
     testLogging {
         events "passed", "skipped", "failed"
     }
+}
+
+application {
+    mainClass = 'Song'
 }
