@@ -12,6 +12,7 @@ Gradle:
 
 Maven:
 
+	mvn exec:java
 
 Tests can be configured in [java/src/test/java](java/src/test/java). You can start them via gradle
 
