@@ -2,6 +2,7 @@
 *~
 .*sw[a-z]
 *.pyc
+*.class
 *.bundle
 .idea/
 .idea_modules/

@@ -2,7 +2,7 @@
 
 # Kata: Sing a song (refactoring)
 
-A [Java](https://www.java.com/) version can be found in the [java](java) folder; produce the song with:
+A [Java](https://www.java.com/) version can be found in the [java/src/main/java](java/src/main/java) folder; produce the song with:
 
 	javac Song.java && java Song
 
@@ -12,7 +12,7 @@ Code to produce a popular children's nursary rhyme was produced by a web agency 
 
 No documentation or tests were provided by the previous developer.
 
-Refactor the code to allow for the customer's needs. 
+Refactor the code to allow for the customer's needs.
 _Remember: refactoring can only be done in the presence of tests that are passing, and after refactoring the tests still pass!_
 
 # License
